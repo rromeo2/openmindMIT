@@ -15,7 +15,7 @@ from glob import glob
 
 work_dir = os.path.abspath('/om/scratch/Tue/mathiasg')
 
-tracula_dir = '/om/project/FACT/analysis/tracula2'
+tracula_dir = '/om/project/FACT/analysis/tracula'
 # only grab session 1
 subject_list = sorted([x for x in os.listdir('/om/project/FACT/subjects') if x.startswith('FACT') and not x.endswith('_2') and x[-1].isdigit()])
 
